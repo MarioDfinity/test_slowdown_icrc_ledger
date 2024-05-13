@@ -1,0 +1,17 @@
+[package]
+name = "test_slowdown_ledger"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+candid = "*"
+chrono = "*"
+clap = { version="*", features=["derive"] }
+elliptic-curve = "*"
+ic-agent = "*"
+icrc-ledger-types = "*"
+rasciigraph = "*"
+ring = "*"
+tokio = { version="*", features=["full"] }
